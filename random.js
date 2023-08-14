@@ -26,10 +26,15 @@ const element = document.getElementById("random-output");
 const randomFunction = () => {
     const index = Math.floor(Math.random() * array.length);
     const output = array[index];
-  
-    console.log(`Operation successful:\n${output}`);
+    
+    randomStringElement.innerHTML = `
+{
+  "id": ${output.id},
+  "name": ${output.name}
+}
+    `;
 
-    element.textContent = output;
+    //element.textContent = output;
 };
 
 randomFunction();
