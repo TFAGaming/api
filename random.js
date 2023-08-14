@@ -27,7 +27,7 @@ const randomFunction = () => {
     const index = Math.floor(Math.random() * array.length);
     const output = array[index];
     
-    randomStringElement.innerHTML = `
+    element.innerHTML = `
 {
   "id": ${output.id},
   "name": ${output.name}
