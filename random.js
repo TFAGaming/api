@@ -1,11 +1,23 @@
 const array = [
   {
     "id": 1,
-    "name": "test"
+    "name": "John"
   },
   {
     "id": 2,
-    "name": "test"
+    "name": "Maria"
+  },
+  {
+    "id": 3,
+    "name": "Chris"
+  },
+  {
+    "id": 4,
+    "name": "Mohammed"
+  },
+  {
+    "id": 5,
+    "name": "Monsieur"
   }
 ]
 
