@@ -27,6 +27,8 @@ const randomFunction = () => {
     const index = Math.floor(Math.random() * array.length);
     const output = array[index];
   
+    console.log(`Operation successful:\n${output}`);
+
     element.textContent = output;
 };
 
