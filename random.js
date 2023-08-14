@@ -23,11 +23,11 @@ const array = [
 
 const element = document.getElementById("random-output");
 
-generateRandomString();
-
-const generateRandomString = () => {
+const randomFunction = () => {
     const index = Math.floor(Math.random() * array.length);
     const output = array[index];
   
     element.textContent = output;
 };
+
+randomFunction();
